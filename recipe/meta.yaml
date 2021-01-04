@@ -34,7 +34,7 @@ test:
   requires:
     - pytest
   commands:
-    - pytest -vv
+    - pytest -vv {{ name }}
 
 about:
   home: https://gramaziokohler.github.io/compas_mobile_robot_reloc
