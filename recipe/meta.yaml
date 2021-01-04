@@ -32,8 +32,10 @@ test:
     - compas_mobile_robot_reloc.utils
     - compas_mobile_robot_reloc.xforms
   requires:
+    - pip
     - pytest
   commands:
+    - pip check
     - pytest -vv {{ name }}
 
 about:
