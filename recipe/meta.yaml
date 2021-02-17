@@ -1,5 +1,5 @@
 {% set name = "compas_mobile_robot_reloc" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6071b9a8dc0fcc75e77b947e87b5ce41c52dfa5c09e1751f99de35b76967dcf1
+  sha256: f6de647bfea468b517f318f8b636ac11586311ec469f9eb8bf4f763e81f340fc
 
 build:
   number: 0
