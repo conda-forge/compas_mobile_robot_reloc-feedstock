@@ -11,13 +11,12 @@ source:
   sha256: 0b777a98d7318ae8690e4efb33a718ebaeb4281b8af79ac42f46f659e740ab43
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   host:
-    - pep517
     - pip
     - python >=3.7
     - setuptools-scm
