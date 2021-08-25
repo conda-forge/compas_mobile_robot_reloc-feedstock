@@ -36,6 +36,7 @@ Installing `compas_mobile_robot_reloc` from the `conda-forge` channel can be ach
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `compas_mobile_robot_reloc` can be installed with:
